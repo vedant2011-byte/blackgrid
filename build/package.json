@@ -2,7 +2,7 @@
   "name": "blackgrid-build",
   "private": true,
   "version": "1.0.0",
-  "description": "Build tooling for BLACKGRID: compiles Tailwind utilities to a static stylesheet.",
+  "description": "Build tooling for VEYLORA: compiles Tailwind utilities to a static stylesheet.",
   "scripts": {
     "css": "tailwindcss -c tailwind.config.js -i tailwind.src.css -o ../assets/blackgrid.css --minify"
   },

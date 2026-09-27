@@ -1,4 +1,4 @@
-/** BLACKGRID — Tailwind config.
+/** VEYLORA — Tailwind config.
  *  Mirrors the previous `tailwind.config` that was set inline for cdn.tailwindcss.com
  *  so the compiled stylesheet is visually identical to the old runtime-JIT output. */
 module.exports = {

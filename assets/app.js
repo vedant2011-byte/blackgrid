@@ -240,14 +240,14 @@ function ServicesSection() {
 function FAQSection() {
   const [openIndex, setOpenIndex] = useState(null);
   const faqs = [
-    { q: 'What does Blackgrid do?', a: 'Blackgrid builds premium websites, AI-powered products, automation systems, and digital experiences for ambitious brands and businesses.' },
+    { q: 'What does Veylora do?', a: 'Veylora builds premium websites, AI-powered products, automation systems, and digital experiences for ambitious brands and businesses.' },
     { q: 'Can you build a website from scratch?', a: 'Yes. From strategy and UI/UX to development, deployment, and optimization, projects can be handled end-to-end.' },
     { q: 'Do you work with startups and small businesses?', a: 'Yes. Projects can be tailored around the client\u2019s current stage, goals, and budget.' },
     { q: 'Can you integrate AI into my existing business?', a: 'Yes. AI can be integrated into workflows such as customer support, lead qualification, content operations, internal tools, and business automation.' },
     { q: 'Can you redesign an existing website?', a: 'Yes. Existing websites can be upgraded while preserving important functionality and content.' },
     { q: 'How long does a project take?', a: 'Project timelines depend on complexity. A focused landing page can be delivered much faster than a full SaaS or AI system.' },
     { q: 'Do you provide support after launch?', a: 'Yes. Ongoing maintenance, improvements, bug fixes, and feature development can be provided.' },
-    { q: 'How do I start a project?', a: 'Contact Blackgrid through WhatsApp and share what you\u2019re trying to build. From there, the project requirements can be discussed.' }
+    { q: 'How do I start a project?', a: 'Contact Veylora through WhatsApp and share what you\u2019re trying to build. From there, the project requirements can be discussed.' }
   ];
   const handleToggle = useCallback((i) => setOpenIndex((prev) => (prev === i ? null : i)), []);
   return React.createElement('section', { id: 'faq', className: 'w-full max-w-none mx-auto px-4 lg:px-[56px] py-[80px] bg-transparent relative z-10' },
@@ -430,7 +430,7 @@ function ProcessSection() {
         transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] },
         className: 'text-center max-w-[800px] mx-auto'
       },
-        React.createElement('div', { className: 'text-[11px] font-medium uppercase text-purple-400/70 tracking-[0.2em] mb-6' }, 'THE BLACKGRID METHOD'),
+        React.createElement('div', { className: 'text-[11px] font-medium uppercase text-purple-400/70 tracking-[0.2em] mb-6' }, 'THE VEYLORA METHOD'),
         React.createElement('h2', { className: 'text-[clamp(36px,6vw,72px)] font-normal leading-[0.95] tracking-tight text-white mb-8' }, 'How We Build'),
         React.createElement('p', { className: 'text-[15px] lg:text-[16px] text-white/45 leading-relaxed max-w-[560px] mx-auto' }, 'From the first idea to the final launch, every project moves through a system designed to turn ambitious ideas into real digital experiences.')
       )
@@ -476,7 +476,7 @@ function ProcessSection() {
     // Micro
     React.createElement('section', { className: 'w-full px-4 lg:px-[56px] pb-[80px]' },
       React.createElement('div', { className: 'w-full max-w-[900px] mx-auto border-t border-white/10 pt-10 flex flex-col md:flex-row md:items-center md:justify-between gap-4' },
-        React.createElement('div', { className: 'text-[11px] font-medium uppercase text-white/30 tracking-[0.2em]' }, 'BLACKGRID / BUILD SYSTEM'),
+        React.createElement('div', { className: 'text-[11px] font-medium uppercase text-white/30 tracking-[0.2em]' }, 'VEYLORA / BUILD SYSTEM'),
         React.createElement('div', { className: 'text-[12px] text-white/25 tracking-wide' }, 'Strategy \u2192 Design \u2192 Technology \u2192 Intelligence \u2192 Launch')
       )
     )
@@ -731,7 +731,7 @@ function App() {
               React.createElement(motion.div, { variants: otherElementVariants, initial: 'hidden', animate: inViewHero ? 'visible' : 'exit' },
                 React.createElement('a', { href: '#solutions', className: 'group inline-flex items-center justify-center bg-white hover:bg-white/90 text-brand-bg rounded-full px-7 py-3.5 text-sm font-normal w-fit gap-3 shadow-none transition-all' },
                   React.createElement('span', { className: 'flex items-center justify-center w-5 h-5 rounded-full bg-brand-bg text-white transition-transform group-hover:scale-105' }, React.createElement(ArrowUpRight, { className: 'w-3.5 h-3.5 stroke-[2.5]' })),
-                  React.createElement('span', { className: 'tracking-tight' }, 'Discover BLACKGRID')
+                  React.createElement('span', { className: 'tracking-tight' }, 'Discover VEYLORA')
                 )
               )
             )
@@ -739,7 +739,7 @@ function App() {
           React.createElement(motion.div, { style: { opacity: heroOtherOpacity, y: heroOtherY }, className: 'lg:col-span-4 lg:col-start-9 flex flex-col justify-center lg:self-end lg:mb-[56px] lg:justify-self-end w-full max-w-[328px]' },
             React.createElement(motion.div, { variants: otherElementVariants, initial: 'hidden', animate: inViewHero ? 'visible' : 'exit' },
               React.createElement('div', { className: 'text-[11.5px] font-normal uppercase text-white/50 tracking-[0.15em] mb-3' }, '001 \u2014 AI Systems'),
-              React.createElement('p', { className: 'text-[14.5px] font-normal leading-relaxed text-white tracking-tight' }, 'BLACKGRID builds intelligent AI systems that automate complex business processes, turning manual workflows into autonomous operations.')
+              React.createElement('p', { className: 'text-[14.5px] font-normal leading-relaxed text-white tracking-tight' }, 'VEYLORA builds intelligent AI systems that automate complex business processes, turning manual workflows into autonomous operations.')
             )
           )
         )
@@ -756,7 +756,7 @@ function App() {
           React.createElement('div', { className: 'w-full' },
             React.createElement(motion.div, { style: withBlur({ opacity: aboutTitleOpacity, y: aboutTitleY }, aboutTitleBlur) },
               React.createElement(TextEffect, { per: 'word', as: 'p', variants: blurSlideVariants, trigger: inViewAbout, className: 'text-[clamp(24px,3.2vw,40px)] font-medium leading-[1.25] tracking-tight text-white max-w-[1200px]' },
-                '\u2460 BLACKGRID is an advanced AI automation company that turns complex business processes into intelligent automated systems. From lead generation to customer support, we build the infrastructure that lets businesses operate smarter.'
+                '\u2460 VEYLORA is an advanced AI automation company that turns complex business processes into intelligent automated systems. From lead generation to customer support, we build the infrastructure that lets businesses operate smarter.'
               )
             )
           ),
@@ -800,7 +800,7 @@ function App() {
                   React.createElement('h1', { className: 'text-[clamp(40px,6.5vw,105px)] font-normal leading-[0.95] tracking-tight text-white w-full' }, 'Automate the work.')
                 ),
                 React.createElement(motion.div, { style: { y: yBottomSet1 }, className: 'w-full' },
-                  React.createElement('h1', { className: 'text-[clamp(40px,6.5vw,105px)] font-normal leading-[0.95] tracking-tight text-white w-full' }, 'BLACKGRID.')
+                  React.createElement('h1', { className: 'text-[clamp(40px,6.5vw,105px)] font-normal leading-[0.95] tracking-tight text-white w-full' }, 'VEYLORA.')
                 )
               ),
               React.createElement(motion.div, { style: withBlur({ opacity: opacitySet2 }, blurSet2), className: 'absolute inset-0 flex flex-col gap-[40px] justify-center pointer-events-none' },
